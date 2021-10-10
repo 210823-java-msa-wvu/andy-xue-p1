@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.connection.url">
+
+        </property>
+        <property name="hibernate.connection.username"></property>
+        <property name="hibernate.connection.password"></property>
+
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL82Dialect</property>
+
+        <property name="show_sql">true</property>
+        <property name="hibernate.format_sql">true</property>
+        <property name="use_sql_comments">true</property>
+
+        <!--<mapping class="com.revature.models.Book"></mapping>-->
+        <!--<mapping class="com.revature.models.Author"></mapping>-->
+        <!--<mapping class="com.revature.models.User"></mapping>-->
+        <!--<mapping class="dev.xue.models.Reimbursement"></mapping>-->
+
+
+    </session-factory>
+</hibernate-configuration>
