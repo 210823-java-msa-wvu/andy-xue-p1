@@ -2,10 +2,10 @@ package dev.xue.controllers;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import dev.xue.models.Employee;
-import dev.xue.models.Reimbursement;
+import dev.xue.models.Grade;
 import dev.xue.models.Request;
 import dev.xue.services.EmployeeServices;
-import dev.xue.services.ReimbursementService;
+import dev.xue.services.GradeService;
 import dev.xue.services.RequestService;
 
 import javax.servlet.ServletException;
@@ -16,16 +16,16 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
 
-public class ReimbursementController implements FrontController {
+public class GradeController implements FrontController{
+
+
 
     private ObjectMapper om = new ObjectMapper();
-    private ReimbursementService reimbursementService = new ReimbursementService();
-    private RequestService requestService = new RequestService();
+    private GradeService gradeService = new GradeService();
     private EmployeeServices employeeServices = new EmployeeServices();
 
     @Override
     public void process(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-
         String path = (String) request.getAttribute("path");
         System.out.println("Path attribute: " + path);
 
@@ -34,7 +34,7 @@ public class ReimbursementController implements FrontController {
         Employee e = employeeServices.getEmployee(username);
         PrintWriter out = response.getWriter();
 
-       // out.println("<h1> Welcome Back" + e.getFirstName() + "</h1>");
+        out.println("<h1> Welcome Back" + e.getFirstName() + "</h1>");
 
         if (path == null || path.equals("")) {
 
@@ -43,33 +43,16 @@ public class ReimbursementController implements FrontController {
 
                 case "GET": {
                     // maybe this is a l=place where you want to check a user's permission/role
-                    System.out.println("Getting all Reimbursements...");
-
-                    List<Reimbursement> reimbursements = reimbursementService.getAllReimbursements();
-                    response.getWriter().write(om.writeValueAsString(reimbursements));
                     break;
                 }
-
                 case "POST": {
-                    //System.out.println("Creating new author...");
-                    Reimbursement r = om.readValue(request.getReader(), Reimbursement.class);
-//                    a.setId((reimbursementService.createReimbursement(a)).getId());
-                    r = reimbursementService.createReimbursement(r);
-                    String rName = r.getReimbursementName();
+                    // maybe this is a l=place where you want to check a user's permission/role
+                    Grade g = om.readValue(request.getReader(), Grade.class);
 
-                    Reimbursement r1 = reimbursementService.getReimbursementByName(rName);
-
-                    //System.out.println("id " +r1.getEmployeeID());
-
-
-                    Request myRequest = new Request(r1.getEmployeeID(), r1.getReimbursementID(), "almost pending", false, false, false, false, "_");
-
-                    myRequest = requestService.createRequest(myRequest);
-
+//                    a.setId((requestService.createRequest(a)).getId());
+                    g = gradeService.createGrade(g);
                     //response.setStatus(201); // Resource created
-                    response.getWriter().write(om.writeValueAsString(r));
-
-
+                    response.getWriter().write(om.writeValueAsString(g));
                     break;
                 }
 
@@ -83,25 +66,25 @@ public class ReimbursementController implements FrontController {
             switch (request.getMethod()) {
 
                 case "GET": {
-                    Reimbursement r = reimbursementService.searchReimbursementById(authorId);
+                    Grade r = gradeService.searchGradeById(authorId);
                     if (r != null) {
                         response.getWriter().write(om.writeValueAsString(r));
                     } else {
-                        response.sendError(404, "Reimbursement not found");
+                        response.sendError(404, "Grade not found");
                     }
                     break;
                 }
 
                 case "PUT": {
-                    Reimbursement r = om.readValue(request.getReader(), Reimbursement.class);
-                    reimbursementService.updateReimbursement(r);
+                    Grade r = om.readValue(request.getReader(), Grade.class);
+                    gradeService.updateGrade(r);
                     response.setStatus(HttpServletResponse.SC_NO_CONTENT);
                     // 204 - server doesn't have any content to send back, but the request was successful
                     break;
                 }
 
                 case "DELETE": {
-                    reimbursementService.deleteReimbursement(authorId);
+                    gradeService.deleteGrade(authorId);
                     response.setStatus(204);
                     break;
                 }

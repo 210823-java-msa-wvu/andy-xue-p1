@@ -25,6 +25,13 @@ public class EmployeeController implements FrontController {
         System.out.println("Path attribute: " + path);
 
 
+
+        HttpSession session = request.getSession();
+        String username = (String) session.getAttribute("username");
+
+        Employee thisEmployee = employeeServices.getEmployee(username);
+
+
         if (path == null || path.equals("")) {
 
             switch (request.getMethod()) {
@@ -32,8 +39,6 @@ public class EmployeeController implements FrontController {
                 case "GET": {
                     // maybe this is a l=place where you want to check a user's permission/role
                     System.out.println("Getting all requests...");
-                    HttpSession session = request.getSession();
-                    String username = (String) session.getAttribute("username");
 
                     Employee e = employeeServices.getEmployee(username);
 
@@ -51,6 +56,21 @@ public class EmployeeController implements FrontController {
 //                    e = employeeServices.(e);
 //                    //response.setStatus(201); // Resource created
 //                    response.getWriter().write(om.writeValueAsString(r));
+                    break;
+                }
+
+                case "PUT": {
+                    Employee e = om.readValue(request.getReader(), Employee.class);
+                    System.out.println(e);
+
+                    Employee e1 = employeeServices.getEmployeeByID(e.getId());
+
+                    float curTuition = e1.getTuitionLeft() - e.getTuitionLeft();
+
+                    employeeServices.updateTuition(curTuition, e.getId());
+
+                    //response.setStatus(201); // Resource created
+                    response.getWriter().write(om.writeValueAsString(e));
                     break;
                 }
 

@@ -28,9 +28,14 @@ public interface RequestRepo extends CrudRepository <Request> {
 
     List<Request> getSupervisorRequests(Integer id);
 
+    List<Request> getBencoRequests();
+
+
     void updateBenco(Boolean status, Integer id, String rStatus);
 
     void updateDptHead(boolean dptApproval, int requestID, String status);
 
     void updateSupervisor(boolean supervisorApproval, int requestID, String status, String reason);
+
+    void updateBoth(boolean supervisorApproval, boolean dptApproval, int requestID, String status, String reason);
 }

@@ -33,6 +33,7 @@ public class RequestHandler {
         controllerMap.put("logout", new LogoutController());
         controllerMap.put("requests", new RequestController());
         controllerMap.put("employees", new EmployeeController());
+        controllerMap.put("grades", new GradeController());
 
 
     }

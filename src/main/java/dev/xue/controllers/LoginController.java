@@ -36,7 +36,11 @@ public class LoginController implements FrontController {
             String currentUser = (String) session.getAttribute("username");
             session.setAttribute("username", e.getUsername());
 
-            if (e.isBenCo()){
+            if (e.isDptHead() && e.isSupervisor())
+            {
+                response.sendRedirect("static/headAndSupervisor.html");
+            }
+            else if (e.isBenCo()){
                 response.sendRedirect("static/bencoForm.html");
             }
             else if (e.isDptHead()){

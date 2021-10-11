@@ -2,11 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e03d6af5-216b-488b-91e0-2c287f9bc89d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/controllers/GradeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/models/Grade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/repositories/GradeRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/repositories/jdbc/GradeJDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/services/GradeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/headAndSupervisor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/requestsTableBoth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/tuitionBoth.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/loginFailed.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/loginFailed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/xue/controllers/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/xue/controllers/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/xue/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/xue/controllers/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/xue/controllers/ReimbursementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/xue/controllers/ReimbursementController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/xue/controllers/RequestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/xue/controllers/RequestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/xue/models/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/xue/models/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/xue/repositories/EmployeeRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/xue/repositories/EmployeeRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/xue/repositories/RequestRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/xue/repositories/RequestRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/xue/repositories/jdbc/EmployeeJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/xue/repositories/jdbc/EmployeeJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/xue/repositories/jdbc/RequestJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/xue/repositories/jdbc/RequestJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/xue/services/EmployeeServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/xue/services/EmployeeServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/xue/services/RequestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/xue/services/RequestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/xue/servlets/RequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/xue/servlets/RequestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/bencoForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/bencoForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/dptHeadForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/dptHeadForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/reimbursement.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/reimbursement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/requestsTable.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/requestsTable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/requestsTableDpt.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/requestsTableDpt.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/requestsTableSupervisor.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/requestsTableSupervisor.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/supervisorForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/supervisorForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/tuitionSupervisor.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/tuitionSupervisor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/tuition.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/tuition.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/tuitionDpt.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/tuitionDpt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/xue/controllers/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/xue/controllers/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/xue/controllers/RequestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/xue/controllers/RequestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/xue/repositories/RequestRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/xue/repositories/RequestRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/xue/repositories/jdbc/EmployeeJDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/xue/repositories/jdbc/EmployeeJDBC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/xue/repositories/jdbc/RequestJDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/xue/repositories/jdbc/RequestJDBC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/xue/services/EmployeeServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/xue/services/EmployeeServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/xue/services/RequestService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/xue/services/RequestService.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,20 +69,31 @@
               </entry>
             </file>
             <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/models/Employee.java">
+              <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/models/Grade.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="218">
-                    <caret line="103" column="5" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
+                  <state relative-caret-position="170">
+                    <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
                     <folding>
-                      <element signature="imports" expanded="true" />
-                      <element signature="e#3436#3437#0" expanded="true" />
-                      <element signature="e#3471#3472#0" expanded="true" />
-                      <element signature="e#3524#3525#0" expanded="true" />
-                      <element signature="e#3565#3566#0" expanded="true" />
-                      <element signature="e#3602#3603#0" expanded="true" />
-                      <element signature="e#3636#3637#0" expanded="true" />
-                      <element signature="e#3689#3690#0" expanded="true" />
-                      <element signature="e#3735#3736#0" expanded="true" />
+                      <element signature="e#756#757#0" expanded="true" />
+                      <element signature="e#786#787#0" expanded="true" />
+                      <element signature="e#829#830#0" expanded="true" />
+                      <element signature="e#867#868#0" expanded="true" />
+                      <element signature="e#901#902#0" expanded="true" />
+                      <element signature="e#934#935#0" expanded="true" />
+                      <element signature="e#983#984#0" expanded="true" />
+                      <element signature="e#1027#1028#0" expanded="true" />
+                      <element signature="e#1060#1061#0" expanded="true" />
+                      <element signature="e#1092#1093#0" expanded="true" />
+                      <element signature="e#1139#1140#0" expanded="true" />
+                      <element signature="e#1181#1182#0" expanded="true" />
+                      <element signature="e#1219#1220#0" expanded="true" />
+                      <element signature="e#1254#1255#0" expanded="true" />
+                      <element signature="e#1309#1310#0" expanded="true" />
+                      <element signature="e#1357#1358#0" expanded="true" />
+                      <element signature="e#1388#1389#0" expanded="true" />
+                      <element signature="e#1416#1417#0" expanded="true" />
+                      <element signature="e#1457#1458#0" expanded="true" />
+                      <element signature="e#1491#1492#0" expanded="true" />
                     </folding>
                   </state>
                 </provider>
@@ -57,8 +102,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/models/Request.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="1578">
-                    <caret line="110" column="37" selection-start-line="110" selection-start-column="37" selection-end-line="110" selection-end-column="37" />
+                  <state relative-caret-position="85">
+                    <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="23" />
                     <folding>
                       <element signature="imports" expanded="true" />
                       <element signature="e#1473#1474#0" expanded="true" />
@@ -93,9 +138,24 @@
                       <element signature="e#2721#2722#0" expanded="true" />
                       <element signature="e#2766#2767#0" expanded="true" />
                       <element signature="e#2802#2803#0" expanded="true" />
+                      <element signature="e#3000#3001#0" expanded="true" />
                       <element signature="e#3035#3036#0" expanded="true" />
                       <element signature="e#3091#3092#0" expanded="true" />
                       <element signature="e#3139#3140#0" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/models/Employee.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="765">
+                    <caret line="51" column="37" lean-forward="true" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+                    <folding>
+                      <element signature="imports" expanded="true" />
+                      <element signature="e#3436#3437#0" expanded="true" />
+                      <element signature="e#3470#3471#0" expanded="true" />
                     </folding>
                   </state>
                 </provider>
@@ -108,37 +168,70 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/reimbursements.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="67" selection-start-line="67" selection-end-line="67" selection-end-column="43" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/reimbursement.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-612">
-              <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+            <state relative-caret-position="222">
+              <caret line="556" column="28" lean-forward="true" selection-start-line="556" selection-start-column="28" selection-end-line="556" selection-end-column="28" />
               <folding>
-                <element signature="e#0#4342#0" />
-                <element signature="e#0#5248#0" />
-                <element signature="e#0#4659#0" />
+                <element signature="e#0#14555#0" />
+                <element signature="e#0#14555#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/services/RequestService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/controllers/EmployeeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="46" column="125" lean-forward="true" selection-start-line="46" selection-start-column="125" selection-end-line="46" selection-end-column="125" />
+            <state relative-caret-position="91">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="96" column="26" selection-start-line="96" selection-start-column="26" selection-end-line="96" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/controllers/RequestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-680">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/services/EmployeeServices.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="29" column="57" lean-forward="true" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/repositories/jdbc/EmployeeJDBC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="162" selection-start-line="162" selection-end-line="162" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,54 +242,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/repositories/jdbc/RequestJDBC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="381" column="23" selection-start-line="381" selection-start-column="23" selection-end-line="381" selection-end-column="23" />
+            <state relative-caret-position="-496">
+              <caret line="366" column="74" lean-forward="true" selection-start-line="366" selection-start-column="74" selection-end-line="366" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#add#0;class#RequestJDBC#0" />
                 <element signature="method#getById#0;class#RequestJDBC#0" />
                 <element signature="method#getAll#0;class#RequestJDBC#0" />
                 <element signature="method#update#0;class#RequestJDBC#0" />
                 <element signature="method#getRequestsForEmployee#0;class#RequestJDBC#0" />
-                <element signature="method#getPendingRequests#0;class#RequestJDBC#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/loginFailed.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-              <folding>
-                <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="method#updateDptHead#0;class#RequestJDBC#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/requestsTableSupervisor.html">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/servlets/FrontControllerServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="149" selection-start-line="149" selection-end-line="149" />
+            <state relative-caret-position="-153">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/supervisorForm.html">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/bencoForm.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="239" selection-start-line="239" selection-end-line="243" selection-end-column="124" />
+            <state relative-caret-position="-523">
+              <caret line="248" column="41" selection-start-line="248" selection-start-column="41" selection-end-line="248" selection-end-column="41" />
               <folding>
-                <element signature="n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#4;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -205,24 +283,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/tuitionSupervisor.html">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/servlets/RequestHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="152" column="124" selection-start-line="152" selection-start-column="124" selection-end-line="152" selection-end-column="124" />
-              <folding>
-                <element signature="n#style#0;n#button#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/controllers/LoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="53" column="61" selection-start-line="53" selection-start-column="61" selection-end-line="53" selection-end-column="61" />
+            <state relative-caret-position="357">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -235,8 +299,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -254,12 +318,14 @@
       <find>userRepo</find>
       <find>eimbursement</find>
       <find>reimbursement</find>
-      <find>Reimbursement</find>
       <find>Book</find>
       <find>Author</find>
       <find>requestService</find>
       <find>pending</find>
       <find>deniedRequest</find>
+      <find>Request</find>
+      <find>ReimbursementService</find>
+      <find>Reimbursement</find>
     </findStrings>
     <replaceStrings>
       <replace>firstName</replace>
@@ -276,6 +342,8 @@
       <replace>Request</replace>
       <replace>employeeService</replace>
       <replace>deniedReason</replace>
+      <replace>gradeService</replace>
+      <replace>Grade</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -284,14 +352,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
-        <option value="$PROJECT_DIR$/src/main/java/dev/xue/models/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dev/xue/controllers/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dev/xue/repositories/UserRepo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dev/xue/repositories/hibernate/UserHibernate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dev/xue/services/ReimbursementServices.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dev/xue/servlets/ReimbursementServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/reimbursements.html" />
         <option value="$PROJECT_DIR$/src/main/java/dev/xue/servlets/FrontControllerServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/index2.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/home.html" />
@@ -300,9 +360,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/java/dev/xue/services/UserServices.java" />
         <option value="$PROJECT_DIR$/src/main/java/dev/xue/repositories/jdbc/UserJDBC.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dev/xue/repositories/EmployeeRepo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dev/xue/repositories/jdbc/EmployeeJDBC.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dev/xue/services/EmployeeServices.java" />
         <option value="$PROJECT_DIR$/src/main/java/dev/xue/models/Reimbursement.java" />
         <option value="$PROJECT_DIR$/src/main/java/dev/xue/services/ReimbursementService.java" />
         <option value="$PROJECT_DIR$/src/main/java/dev/xue/repositories/hibernate/ReimbursementHibernate.java" />
@@ -310,31 +367,42 @@
         <option value="$PROJECT_DIR$/src/main/java/dev/xue/repositories/jdbc/ReimbursementJDBC.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/table.html" />
         <option value="$PROJECT_DIR$/src/main/java/dev/xue/controllers/LogoutController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/dev/xue/servlets/RequestHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dev/xue/models/Employee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dev/xue/controllers/EmployeeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/dev/xue/models/Request.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dev/xue/controllers/ReimbursementController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dev/xue/services/RequestService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dev/xue/repositories/RequestRepo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dev/xue/controllers/RequestController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dev/xue/repositories/jdbc/RequestJDBC.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/js/reimbursement.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/tuition.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/requestsTable.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/home.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/requestsTableDpt.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/tuitionDpt.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/dptHeadForm.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/bencoForm.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/requestsTableBenco.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/tuitionBenco.html" />
-        <option value="$PROJECT_DIR$/src/main/java/dev/xue/controllers/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/requestsTableSupervisor.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/supervisorForm.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/tuitionSupervisor.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/loginFailed.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/supervisorForm.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/dptHeadForm.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/requestsTableDpt.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/tuitionDpt.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/requestsTable.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/tuition.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/requestsTableSupervisor.html" />
+        <option value="$PROJECT_DIR$/src/main/java/dev/xue/services/RequestService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dev/xue/repositories/RequestRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/tuitionBoth.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/requestsTableBoth.html" />
+        <option value="$PROJECT_DIR$/src/main/java/dev/xue/controllers/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/headAndSupervisor.html" />
+        <option value="$PROJECT_DIR$/src/main/java/dev/xue/models/Grade.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dev/xue/repositories/GradeRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dev/xue/services/GradeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dev/xue/controllers/GradeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dev/xue/repositories/jdbc/GradeJDBC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dev/xue/servlets/RequestHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/home.html" />
+        <option value="$PROJECT_DIR$/src/main/java/dev/xue/repositories/jdbc/RequestJDBC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dev/xue/controllers/RequestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dev/xue/controllers/ReimbursementController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/bencoForm.html" />
+        <option value="$PROJECT_DIR$/src/main/java/dev/xue/repositories/EmployeeRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dev/xue/services/EmployeeServices.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dev/xue/repositories/jdbc/EmployeeJDBC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dev/xue/controllers/EmployeeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dev/xue/models/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/js/reimbursement.js" />
       </list>
     </option>
   </component>
@@ -410,16 +478,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xue" type="462c0819:PsiDirectoryNode" />
               <item name="repositories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="andy-xue-p1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xue" type="462c0819:PsiDirectoryNode" />
-              <item name="repositories" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Project1" type="b2602c69:ProjectViewProjectNode" />
@@ -506,7 +564,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1633914612182" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1633946643065" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../LibaryServlet" />
   </component>
   <component name="RecentsManager">
@@ -601,10 +659,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-7" y="0" width="697" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24659607" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.06907378" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -613,35 +671,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.44026187" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21767594" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.21931261" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2708018" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.44026187" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.12602292" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.15946844" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -658,130 +688,9 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout-to-restore>
+    </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/servlets/EmployeeServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/controllers/FrontController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="112" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="112" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="22" column="62" selection-start-line="22" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/models/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/controllers/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/repositories/EmployeeRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/servlets/ReimbursementServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/repositories/UserRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/servlets/FrontControllerServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="196" column="8" selection-start-line="196" selection-start-column="8" selection-end-line="196" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/repositories/ReimbursementRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="9" selection-start-line="9" selection-end-line="21" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/repositories/hibernate/ReimbursementHibernate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1428#1429#0" expanded="true" />
-            <element signature="e#1455#1456#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/repositories/hibernate/RequestHibernate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -792,26 +701,6 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.50/tomcat-embed-core-9.0.50.jar!/org/apache/catalina/core/ApplicationFilterChain.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/repositories/jdbc/UserJDBC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/repositories/jdbc/ReimbursementJDBC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/services/UserServices.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -819,23 +708,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/services/ReimbursementService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
@@ -849,27 +721,353 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/services/EmployeeServices.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/requestsTableBenco.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="147" selection-start-line="147" selection-end-line="153" selection-end-column="124" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/tuitionBenco.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/reimbursements.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="67" selection-start-line="67" selection-end-line="67" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/tuitionSupervisor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="152" column="124" selection-start-line="152" selection-start-column="124" selection-end-line="152" selection-end-column="124" />
+          <folding>
+            <element signature="n#style#0;n#button#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/loginFailed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="27" column="11" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/requestsTableDpt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="150" lean-forward="true" selection-start-line="150" selection-end-line="150" />
+          <folding>
+            <element signature="n#style#0;n#button#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/tuitionDpt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="151" lean-forward="true" selection-start-line="151" selection-end-line="151" />
+          <folding>
+            <element signature="n#style#0;n#button#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/requestsTableSupervisor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="155" lean-forward="true" selection-start-line="155" selection-end-line="155" />
+          <folding>
+            <element signature="n#style#0;n#button#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/requestsTable.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="151" selection-start-line="151" selection-end-line="151" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/tuitionBoth.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="150" column="95" selection-start-line="150" selection-start-column="95" selection-end-line="150" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/repositories/CrudRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <caret line="20" column="28" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/repositories/GradeRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/repositories/RequestRepo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        <state relative-caret-position="34">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/servlets/RequestHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/services/RequestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="12" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/repositories/jdbc/UserJDBC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/services/ReimbursementService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="10" selection-start-line="10" selection-end-line="32" selection-end-column="104" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/services/GradeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/controllers/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="40" column="63" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/controllers/GradeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="34" column="65" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/repositories/jdbc/GradeJDBC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/dptHeadForm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="239" column="67" selection-start-line="239" selection-end-line="240" />
+          <folding>
+            <element signature="n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/headAndSupervisor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="230" column="58" selection-start-line="230" selection-start-column="58" selection-end-line="230" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/requestsTableBoth.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="150" column="91" selection-start-line="150" selection-start-column="91" selection-end-line="150" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/repositories/jdbc/ReimbursementJDBC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/supervisorForm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="225" selection-start-line="225" selection-end-line="228" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/controllers/ReimbursementController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="863">
+          <caret line="224" column="51" selection-start-line="224" selection-start-column="51" selection-end-line="224" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/models/Grade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1092#1093#0" expanded="true" />
+            <element signature="e#1139#1140#0" expanded="true" />
+            <element signature="e#1181#1182#0" expanded="true" />
+            <element signature="e#1219#1220#0" expanded="true" />
+            <element signature="e#1254#1255#0" expanded="true" />
+            <element signature="e#1309#1310#0" expanded="true" />
+            <element signature="e#1357#1358#0" expanded="true" />
+            <element signature="e#1388#1389#0" expanded="true" />
+            <element signature="e#1416#1417#0" expanded="true" />
+            <element signature="e#1457#1458#0" expanded="true" />
+            <element signature="e#1491#1492#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/repositories/EmployeeRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -878,38 +1076,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/repositories/jdbc/EmployeeJDBC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="50" column="46" lean-forward="true" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+        <state relative-caret-position="263">
+          <caret line="162" selection-start-line="162" selection-end-line="162" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/controllers/EmployeeController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/repositories/jdbc/RequestJDBC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="-496">
+          <caret line="366" column="74" lean-forward="true" selection-start-line="366" selection-start-column="74" selection-end-line="366" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/models/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="103" column="5" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3436#3437#0" expanded="true" />
-            <element signature="e#3471#3472#0" expanded="true" />
-            <element signature="e#3524#3525#0" expanded="true" />
-            <element signature="e#3565#3566#0" expanded="true" />
-            <element signature="e#3602#3603#0" expanded="true" />
-            <element signature="e#3636#3637#0" expanded="true" />
-            <element signature="e#3689#3690#0" expanded="true" />
-            <element signature="e#3735#3736#0" expanded="true" />
+            <element signature="method#getById#0;class#RequestJDBC#0" />
+            <element signature="method#getAll#0;class#RequestJDBC#0" />
+            <element signature="method#update#0;class#RequestJDBC#0" />
+            <element signature="method#getRequestsForEmployee#0;class#RequestJDBC#0" />
+            <element signature="method#updateDptHead#0;class#RequestJDBC#0" />
           </folding>
         </state>
       </provider>
@@ -926,27 +1111,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/controllers/ReimbursementController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="66" column="72" lean-forward="true" selection-start-line="66" selection-start-column="72" selection-end-line="66" selection-end-column="72" />
+        <state relative-caret-position="-102" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/services/EmployeeServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="29" column="57" lean-forward="true" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/controllers/RequestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-680">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/repositories/RequestRepo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/bencoForm.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="-523">
+          <caret line="248" column="41" selection-start-line="248" selection-start-column="41" selection-end-line="248" selection-end-column="41" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/controllers/EmployeeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/tuition.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="151" selection-start-line="151" selection-end-line="151" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/servlets/FrontControllerServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/models/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="37" lean-forward="true" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3436#3437#0" expanded="true" />
+            <element signature="e#3470#3471#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/models/Request.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1578">
-          <caret line="110" column="37" selection-start-line="110" selection-start-column="37" selection-end-line="110" selection-end-column="37" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1473#1474#0" expanded="true" />
@@ -981,6 +1232,7 @@
             <element signature="e#2721#2722#0" expanded="true" />
             <element signature="e#2766#2767#0" expanded="true" />
             <element signature="e#2802#2803#0" expanded="true" />
+            <element signature="e#3000#3001#0" expanded="true" />
             <element signature="e#3035#3036#0" expanded="true" />
             <element signature="e#3091#3092#0" expanded="true" />
             <element signature="e#3139#3140#0" expanded="true" />
@@ -988,10 +1240,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/controllers/RequestController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/models/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="92" column="136" selection-start-line="92" selection-start-column="136" selection-end-line="92" selection-end-column="136" />
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="96" column="26" selection-start-line="96" selection-start-column="26" selection-end-line="96" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/servlets/RequestHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1000,231 +1266,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/reimbursement.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612">
-          <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+        <state relative-caret-position="222">
+          <caret line="556" column="28" lean-forward="true" selection-start-line="556" selection-start-column="28" selection-end-line="556" selection-end-column="28" />
           <folding>
-            <element signature="e#0#4342#0" />
-            <element signature="e#0#5248#0" />
-            <element signature="e#0#4659#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/services/RequestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="46" column="125" lean-forward="true" selection-start-line="46" selection-start-column="125" selection-end-line="46" selection-end-column="125" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/tuitionDpt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="150" selection-start-line="150" selection-end-line="150" />
-          <folding>
-            <element signature="n#style#0;n#button#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/dptHeadForm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="244" column="17" selection-start-line="244" selection-start-column="17" selection-end-line="244" selection-end-column="17" />
-          <folding>
-            <element signature="n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="230" lean-forward="true" selection-start-line="230" selection-end-line="230" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/requestsTableDpt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="135" column="20" lean-forward="true" selection-start-line="135" selection-start-column="20" selection-end-line="135" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#button#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/tuition.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="148" column="35" lean-forward="true" selection-start-line="148" selection-end-line="149" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/requestsTable.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="148" column="41" lean-forward="true" selection-start-line="148" selection-end-line="149" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/repositories/jdbc/RequestJDBC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="381" column="23" selection-start-line="381" selection-start-column="23" selection-end-line="381" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#add#0;class#RequestJDBC#0" />
-            <element signature="method#getById#0;class#RequestJDBC#0" />
-            <element signature="method#getAll#0;class#RequestJDBC#0" />
-            <element signature="method#update#0;class#RequestJDBC#0" />
-            <element signature="method#getRequestsForEmployee#0;class#RequestJDBC#0" />
-            <element signature="method#getPendingRequests#0;class#RequestJDBC#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/bencoForm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="249" column="118" selection-start-line="249" selection-start-column="118" selection-end-line="249" selection-end-column="118" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/requestsTableBenco.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="147" selection-start-line="147" selection-end-line="153" selection-end-column="124" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/tuitionBenco.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/controllers/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="53" column="61" selection-start-line="53" selection-start-column="61" selection-end-line="53" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/reimbursements.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="67" selection-start-line="67" selection-end-line="67" selection-end-column="43" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/requestsTableSupervisor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="149" selection-start-line="149" selection-end-line="149" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/supervisorForm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="239" selection-start-line="239" selection-end-line="243" selection-end-column="124" />
-          <folding>
-            <element signature="n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/tuitionSupervisor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="152" column="124" selection-start-line="152" selection-start-column="124" selection-end-line="152" selection-end-column="124" />
-          <folding>
-            <element signature="n#style#0;n#button#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/loginFailed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#0#14555#0" />
+            <element signature="e#0#14555#0" />
           </folding>
         </state>
       </provider>

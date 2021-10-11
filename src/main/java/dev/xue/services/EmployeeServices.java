@@ -20,6 +20,14 @@ public class EmployeeServices {
         return employeeRepo.getByUsername(username);
 
     }
+    public Employee getEmployeeByID(int id) {
+
+        return employeeRepo.getById(id);
+
+    }
 
 
+    public void updateTuition(float curTuition, int id) {
+        employeeRepo.updateTuition(curTuition, id);
+    }
 }

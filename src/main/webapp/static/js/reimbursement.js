@@ -19,7 +19,7 @@ async function addReimbursementFetch() {
     }
 
     console.log(reimbursement);
-
+    alert("Your Request has been Sent!");
 
 
     let res = await fetch(url, {
@@ -35,6 +35,7 @@ async function addReimbursementFetch() {
     .catch(error => {
         console.log(error);
     })
+
 
 
 }
@@ -188,6 +189,7 @@ function approveRequest1(){
     }
 
     console.log(request);
+    alert("Request Has Been Approved!");
 
      // Now we can prepare and send our XMLHttpRequest Object
     let xhttp = new XMLHttpRequest();
@@ -226,6 +228,7 @@ function denyRequest1(){
     }
 
     console.log(request);
+    alert("Request Has Been Denied!");
 
      // Now we can prepare and send our XMLHttpRequest Object
     let xhttp = new XMLHttpRequest();
@@ -258,7 +261,7 @@ function approveRequestDpt(){
         requestID: rID,
         employeeID: 0,
         reimbursementID: 0,
-        status: "pending",
+        status: "almost pending",
         supervisorApproval: "false",
         dptApproval: 'true',
         benCoApproval: 'false',
@@ -267,6 +270,7 @@ function approveRequestDpt(){
     }
 
     console.log(request);
+    alert("Request Has Been Approved!");
 
      // Now we can prepare and send our XMLHttpRequest Object
     let xhttp = new XMLHttpRequest();
@@ -299,12 +303,13 @@ function denyRequestDpt(){
         status: "denied",
         supervisorApproval: "false",
         dptApproval: 'false',
-        benCoApproval: 'true',
+        benCoApproval: 'false',
         urgent: 'false',
         deniedReason: '_'
     }
 
     console.log(request);
+    alert("Request Has Been Denied!");
 
      // Now we can prepare and send our XMLHttpRequest Object
     let xhttp = new XMLHttpRequest();
@@ -335,15 +340,16 @@ function approveRequestSup(){
         requestID: rID,
         employeeID: 0,
         reimbursementID: 0,
-        status: "pending",
-        supervisorApproval: "false",
-        dptApproval: 'true',
+        status: "almost pending",
+        supervisorApproval: "true",
+        dptApproval: 'false',
         benCoApproval: 'false',
         urgent: 'false',
         deniedReason: '_'
     }
 
     console.log(request);
+    alert("Request Has Been Approved!");
 
      // Now we can prepare and send our XMLHttpRequest Object
     let xhttp = new XMLHttpRequest();
@@ -378,12 +384,13 @@ function denyRequestSup(){
         status: "denied",
         supervisorApproval: "false",
         dptApproval: 'false',
-        benCoApproval: 'true',
+        benCoApproval: 'false',
         urgent: 'false',
         deniedReason: reason
     }
 
     console.log(request);
+    alert("Request Has Been Denied!");
 
      // Now we can prepare and send our XMLHttpRequest Object
     let xhttp = new XMLHttpRequest();
@@ -404,6 +411,213 @@ function denyRequestSup(){
     xhttp.send(JSON.stringify(request));
 }
 
+
+function approveRequestBoth(){
+    let url = 'http://localhost:8080/Project1/requests';
+
+    let rID = document.getElementById('change_status').value;
+
+    const cb = document.getElementById('supervisor');
+    console.log(cb.checked);
+
+    let sa = 'false';
+    if (cb.checked){
+        sa = 'true';
+    }
+
+     // and save into an object
+    let request = {
+        requestID: rID,
+        employeeID: 0,
+        reimbursementID: 0,
+        status: "almost pending",
+        supervisorApproval: sa,
+        dptApproval: 'true',
+        benCoApproval: 'false',
+        urgent: 'false',
+        deniedReason: '_'
+    }
+
+    console.log(request);
+    alert("Request Has Been Approved!");
+
+     // Now we can prepare and send our XMLHttpRequest Object
+    let xhttp = new XMLHttpRequest();
+
+    xhttp.onreadystatechange = function () {
+
+        if (this.readyState == 4 && this.status == 200) {
+            let r = this.responseText;
+            console.log(r);
+        }
+
+    }
+    xhttp.open('PUT', 'http://localhost:8080/Project1/requests', true);
+
+    // because we are sending data in the body, we need to tell our server what to expect
+    xhttp.setRequestHeader('Content-Type', 'application/json');
+
+    xhttp.send(JSON.stringify(request));
+}
+
+function denyRequestBoth(){
+    let url = 'http://localhost:8080/Project1/requests';
+
+    let rID = document.getElementById('change_status').value;
+    let reason = document.getElementById('denied_reason').value;
+     // and save into an object
+    let request = {
+        requestID: rID,
+        employeeID: 0,
+        reimbursementID: 0,
+        status: "denied",
+        supervisorApproval: "false",
+        dptApproval: 'false',
+        benCoApproval: 'false',
+        urgent: 'false',
+        deniedReason: reason
+    }
+
+    console.log(request);
+    alert("Request Has Been Denied!");
+
+     // Now we can prepare and send our XMLHttpRequest Object
+    let xhttp = new XMLHttpRequest();
+
+    xhttp.onreadystatechange = function () {
+
+        if (this.readyState == 4 && this.status == 200) {
+            let r = this.responseText;
+            console.log(r);
+        }
+
+    }
+    xhttp.open('PUT', 'http://localhost:8080/Project1/requests', true);
+
+    // because we are sending data in the body, we need to tell our server what to expect
+    xhttp.setRequestHeader('Content-Type', 'application/json');
+
+    xhttp.send(JSON.stringify(request));
+}
+function addGrade(){
+    let url = 'http://localhost:8080/Project1/grades';
+
+    let eID = document.getElementById('grade_employee_id').value;
+    let rID = document.getElementById('grade_request_id').value;
+    let pScore = document.getElementById('passing_score').value;
+    let myScore = document.getElementById('my_grade').value;
+
+     // and save into an object
+    let grade = {
+        employeeID: eID,
+        requestID: rID,
+        passingScore: pScore,
+        score: myScore
+    }
+
+    console.log(grade);
+
+
+     // Now we can prepare and send our XMLHttpRequest Object
+    let xhttp = new XMLHttpRequest();
+
+    xhttp.onreadystatechange = function () {
+
+        if (this.readyState == 4 && this.status == 200) {
+            let r = this.responseText;
+            console.log(r);
+        }
+
+    }
+    xhttp.open('POST', 'http://localhost:8080/Project1/grades', true);
+
+    // because we are sending data in the body, we need to tell our server what to expect
+    xhttp.setRequestHeader('Content-Type', 'application/json');
+
+    xhttp.send(JSON.stringify(grade));
+}
+
+function finalizeReimbursement(){
+    let url = 'http://localhost:8080/Project1/employees';
+
+    let rID = document.getElementById('request_id_approved').value;
+    let eID = document.getElementById('employee_id_approved').value;
+    let rAmount = document.getElementById('reimbursement_amount').value;
+
+
+     // and save into an object
+    let employee = {
+        id: eID,
+        firstName: '_',
+        lastName: '_',
+        username: '_',
+        password: '_',
+        department: '_',
+        dptHead: 'false',
+        supervisor: 'false',
+        benCo: 'true',
+        dptHeadId: 0,
+        supervisorId: 0,
+        benCoId: 0,
+        tuitionLeft: rAmount
+    }
+
+    console.log(employee);
+
+     // Now we can prepare and send our XMLHttpRequest Object
+    let xhttp = new XMLHttpRequest();
+
+    xhttp.onreadystatechange = function () {
+
+        if (this.readyState == 4 && this.status == 200) {
+            let r = this.responseText;
+            console.log(r);
+        }
+
+    }
+    xhttp.open('PUT', 'http://localhost:8080/Project1/employees', true);
+
+    // because we are sending data in the body, we need to tell our server what to expect
+    xhttp.setRequestHeader('Content-Type', 'application/json');
+
+    xhttp.send(JSON.stringify(employee));
+
+    let request = {
+        requestID: rID,
+        employeeID: 0,
+        reimbursementID: 0,
+        status: "approved",
+        supervisorApproval: 'true',
+        dptApproval: 'true',
+        benCoApproval: 'true',
+        urgent: 'false',
+        deniedReason: '_'
+    }
+
+    console.log(request);
+    alert("Request Has Been Approved!");
+            // Now we can prepare and send our XMLHttpRequest Object
+    let xhttp1 = new XMLHttpRequest();
+
+    xhttp1.onreadystatechange = function () {
+
+        if (this.readyState == 4 && this.status == 200) {
+            let r = this.responseText;
+            console.log(r);
+        }
+
+    }
+    xhttp1.open('PUT', 'http://localhost:8080/Project1/requests', true);
+
+        // because we are sending data in the body, we need to tell our server what to expect
+    xhttp1.setRequestHeader('Content-Type', 'application/json');
+    xhttp1.send(JSON.stringify(request));
+
+
+}
+
+
+
 function goToHome()
 {
     location.replace("home.html");
@@ -418,7 +632,9 @@ function goToDptForm(){
 function goToSupervisorForm(){
     location.replace("supervisorForm.html");
 }
-
+function goToBothForm(){
+    location.replace("headAndSupervisor.html")
+}
 
 
 
@@ -440,6 +656,10 @@ function moveToRequestTableSupervisor()
 {
     location.replace("requestsTableSupervisor.html");
 }
+function moveToRequestTableBoth()
+{
+    location.replace("requestsTableBoth.html");
+}
 
 
 
@@ -460,6 +680,11 @@ function moveToTuitionSupervisor()
 {
     location.replace("tuitionSupervisor.html");
 }
+function moveToTuitionBoth()
+{
+    location.replace("tuitionBoth.html");
+}
+
 
 function logout() {
     location.replace("index2.html");

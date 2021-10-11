@@ -214,10 +214,41 @@ span.psw {
         </div>
     </form>
 </div>
+<div id="id02" class="modal">
+
+    <form class="modal-content animate" action="/action_page.php" method="post">
+        <div class="imgcontainer">
+            <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+        </div>
+
+        <div class="container">
+            <label for="grade_employee_id">Employee ID:
+                <input id="grade_employee_id" type="text" name="grade_employee_id" class="form-control">
+            </label>
+            <label for="grade_request_id">Request ID:
+                <input id="grade_request_id" type="text" name="grade_request_id" class="form-control">
+            </label>
+            <label for="passing_score">Passing Grade:
+                <input id="passing_score" type="text" name="passing_score" class="form-control">
+            </label>
+            <label for="my_grade">My Score:
+                <input id="my_grade" type="text" name="my_grade" class="form-control">
+            </label>
+            <button type="button" id="submitGrade" class="btn btn-primary" onclick="addGrade()">Submit Grade</button>
+
+            <br><br>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+            <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+    </form>
+</div>
 
 <button type="button" id = "toHome" class = "btn btn-primary" onclick="goToHome()" style="width:auto;">Home</button>
 
-<button onclick="moveToRequestTable()" style="width:auto;">Check Reimbursements Status</button>
+<button onclick="moveToRequestTable()" style="width:auto;">My Reimbursements Requests</button>
 
 <button type="button" id = "tuitionButton" class = "btn btn-primary" onclick="moveToTuition()" style="width:auto;">Tuition Balance</button>
 <button type="button" id = "logoutButton" class = "btn btn-primary" onclick="logout()" style="width:auto;">Sign Out</button>
@@ -228,6 +259,7 @@ span.psw {
 <h2>Employee Account</h2>
 <p> Welcome to the Employee Home Page!</p>
 <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Add Reimbursement</button>
+<button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Submit Grade</button>
 
 
 <table border="1" style= "display:table;">

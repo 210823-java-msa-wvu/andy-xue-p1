@@ -17,4 +17,6 @@ public interface EmployeeRepo extends CrudRepository<Employee> {
     void update(Employee user);
 
     void delete(Integer id);
+
+    void updateTuition(float curTuition, int id);
 }

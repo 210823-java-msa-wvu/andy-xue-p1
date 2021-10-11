@@ -202,7 +202,7 @@ public class RequestJDBC implements RequestRepo {
 
         try (Connection conn = cu.getConnection()) {
 
-            String sql = "select * from requests where status = 'pending' order by request_id ";
+            String sql = "select * from requests where status = 'almost pending' order by request_id ";
 
             PreparedStatement ps = conn.prepareStatement(sql);
 
@@ -245,7 +245,7 @@ public class RequestJDBC implements RequestRepo {
 
             String sql = "select request_id, employee_id, reimbursement_id, status, supervisor_approval, dept_approval, ben_co_approval, urgent, denied_reason from requests\n" +
                     "inner join employees on requests.employee_id = employees.id\n" +
-                    "where employees.department_head_id  = ? and status = 'pending' order by request_id; ";
+                    "where employees.department_head_id  = ? and status = 'almost pending' order by request_id; ";
 
             PreparedStatement ps = conn.prepareStatement(sql);
             ps.setInt(1, id);
@@ -288,11 +288,50 @@ public class RequestJDBC implements RequestRepo {
 
             String sql = "select request_id, employee_id, reimbursement_id, status, supervisor_approval, dept_approval, ben_co_approval, urgent, denied_reason from requests\n" +
                     "inner join employees on requests.employee_id = employees.id\n" +
-                    "where employees.supervisor_id  = ? and status = 'pending' order by request_id; ";
+                    "where employees.supervisor_id  = ? and status = 'almost pending' order by request_id; ";
 
             PreparedStatement ps = conn.prepareStatement(sql);
             ps.setInt(1, id);
 
+
+            ResultSet rs = ps.executeQuery();
+
+            while (rs.next()) {
+                Request r = new Request(
+                        rs.getInt("request_id"),
+                        rs.getInt("employee_id"),
+                        rs.getInt("reimbursement_id"),
+                        rs.getString("status"),
+                        rs.getBoolean("supervisor_approval"),
+                        rs.getBoolean("dept_approval"),
+                        rs.getBoolean("ben_co_approval"),
+                        rs.getBoolean("urgent"),
+                        rs.getString("denied_reason")
+                );
+
+                System.out.println(r);
+
+                requests.add(r);
+            }
+
+            return requests;
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        return null;
+    }
+
+    @Override
+    public List<Request> getBencoRequests() {
+        List<Request> requests = new ArrayList<>();
+
+        try (Connection conn = cu.getConnection()) {
+
+            String sql = "select * from requests where status = 'almost pending' and supervisor_approval = 'true' and dept_approval = 'true' order by request_id ";
+
+            PreparedStatement ps = conn.prepareStatement(sql);
 
             ResultSet rs = ps.executeQuery();
 
@@ -372,7 +411,7 @@ public class RequestJDBC implements RequestRepo {
     public void updateSupervisor(boolean supervisorApproval, int requestID, String status, String reason) {
         try (Connection conn = cu.getConnection()) {
 
-            String sql = "UPDATE requests SET dept_approval = ?, status = ?, denied_reason = ? where request_id = ?;";
+            String sql = "UPDATE requests SET supervisor_approval = ?, status = ?, denied_reason = ? where request_id = ?;";
 
             PreparedStatement ps = conn.prepareStatement(sql);
 
@@ -380,6 +419,28 @@ public class RequestJDBC implements RequestRepo {
             ps.setString(2, status);
             ps.setString(3, reason);
             ps.setInt(4, requestID);
+
+            ps.execute();
+
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    public void updateBoth(boolean supervisorApproval, boolean dptApproval, int requestID, String status, String reason) {
+        try (Connection conn = cu.getConnection()) {
+
+            String sql = "UPDATE requests SET supervisor_approval = ?, dept_approval = ?, status = ?, denied_reason = ? where request_id = ?;";
+
+            PreparedStatement ps = conn.prepareStatement(sql);
+
+            ps.setBoolean(1, supervisorApproval);
+            ps.setBoolean(2, dptApproval);
+            ps.setString(3, status);
+            ps.setString(4, reason);
+            ps.setInt(5, requestID);
 
             ps.execute();
 

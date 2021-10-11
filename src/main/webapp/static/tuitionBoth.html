@@ -143,18 +143,15 @@ span.psw {
 
 </style>
 </head>
-<body onload="getRequests()">
+<body onload="getTuition()">
 
-<button type="button" id = "toBenco" class = "btn btn-primary" onclick="goToDptForm()" style="width:auto;">DptHome</button>
+<button type="button" id = "Home" class = "btn btn-primary" onclick="goToBothForm()" style="width:auto;">Home</button>
+<button onclick="moveToRequestTableBoth()" style="width:auto;">View Pending Requests to Supervisor</button>
 
-<button onclick="moveToRequestTableDpt()" style="width:auto;">View Pending Department Requests</button>
-
-
-<button type="button" id = "tuitionButton" class = "btn btn-primary" onclick="moveToTuitionDpt()" style="width:auto;">Tuition Balance</button>
+<button type="button" id = "tuitionButton" class = "btn btn-primary" onclick="moveToTuitionBoth()" style="width:auto;">Tuition Balance</button>
 
 <button type="button" id = "logoutButton" class = "btn btn-primary" onclick="logout()" style="width:auto;">Sign Out</button>
-
-<h2>Request Table</h2>
+<h2>Tuition Left</h2>
 
 
 <script src="js/reimbursement.js"></script>

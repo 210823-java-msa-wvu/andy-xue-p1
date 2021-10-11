@@ -24,6 +24,41 @@ public class EmployeeJDBC implements EmployeeRepo {
 
     @Override
     public Employee getById(Integer id) {
+        try (Connection conn = cu.getConnection()) {
+
+            String sql = "select * from employees where id = ?";
+
+            PreparedStatement ps = conn.prepareStatement(sql);
+            ps.setInt(1, id);
+
+            ResultSet rs = ps.executeQuery();
+
+            if (rs.next()) {
+                Employee e = new Employee(
+                        rs.getInt("id"),//id
+                        rs.getString("first_name"),
+                        rs.getString("last_name"),
+                        rs.getString("username"), //firstname
+                        rs.getString("employee_password"),//lastname
+                        rs.getString("department"),
+                        rs.getBoolean("is_dpt_head"),
+                        rs.getBoolean("is_supervisor"),
+                        rs.getBoolean("is_ben_co"),
+                        rs.getInt("department_head_id"),
+                        rs.getInt("supervisor_id"),
+                        rs.getInt("ben_co_id"),
+                        rs.getFloat("tuition_left")
+
+                );
+                return e;
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+
+
         return null;
     }
 
@@ -106,6 +141,26 @@ public class EmployeeJDBC implements EmployeeRepo {
 
     @Override
     public void delete(Integer id) {
+
+    }
+
+    @Override
+    public void updateTuition(float curTuition, int id) {
+        try (Connection conn = cu.getConnection()) {
+
+            String sql = "update employees set tuition_left = ? where id = ?";
+
+            PreparedStatement ps = conn.prepareStatement(sql);
+
+            ps.setFloat(1, curTuition);
+            ps.setInt(2, id);
+
+            ps.execute();
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
 
     }
 }

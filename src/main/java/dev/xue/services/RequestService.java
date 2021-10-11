@@ -34,7 +34,7 @@ public class RequestService {
     public List<Request> getRequestsForEmloyee(Integer id){return requestRepo.getRequestsForEmployee(id);}
 
     public List<Request> getPendingRequests(){return requestRepo.getPendingRequests();}
-
+    public List<Request> getBencoRequests() { return requestRepo.getBencoRequests();}
     public List<Request> getDptRequests(Integer id){return requestRepo.getDptRequests(id);}
     public List<Request> getSupervisorRequests(Integer id) {return requestRepo.getSupervisorRequests(id);}
 
@@ -45,5 +45,9 @@ public class RequestService {
 
 
     public void updateSupervisor(boolean supervisorApproval, int requestID, String status, String reason) { requestRepo.updateSupervisor(supervisorApproval, requestID, status, reason);
+    }
+
+
+    public void updateBoth(boolean supervisorApproval, boolean dptApproval, int requestID, String status, String reason) { requestRepo.updateBoth(supervisorApproval, dptApproval, requestID, status, reason);
     }
 }

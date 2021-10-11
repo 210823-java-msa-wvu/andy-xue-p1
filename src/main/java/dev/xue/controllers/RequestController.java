@@ -50,9 +50,11 @@ public class RequestController implements FrontController {
                     List<Request> requests;
 
                     if (e.isBenCo()){
-                        requests = requestService.getPendingRequests();
-
+                        requests = requestService.getBencoRequests();
                     }
+//                    else if (e.isSupervisor()&& e.isDptHead()){
+//                        requests = requestService.getBothRequests(e.getId());
+//                    }
                     else if (e.isDptHead()){
                         requests = requestService.getDptRequests(e.getId());
                     }
@@ -82,14 +84,17 @@ public class RequestController implements FrontController {
 
                     Request r = om.readValue(request.getReader(), Request.class);//stores request id to be updated,
 
-
-                    if (e.isBenCo()){
+                    if (e.isSupervisor() && e.isDptHead())
+                    {
+                        requestService.updateBoth(r.isSupervisorApproval(), r.isDptApproval(), r.getRequestID(), r.getStatus(), r.getDeniedReason());
+                    }
+                    else if (e.isBenCo()){
                         requestService.updateBenco(r.isBenCoApproval(), r.getRequestID(), r.getStatus());
                     }
-                    if (e.isDptHead()) {
+                    else if (e.isDptHead()) {
                         requestService.updateDptHead(r.isDptApproval(),r.getRequestID(), r.getStatus());
                     }
-                    if (e.isSupervisor()){
+                    else if (e.isSupervisor()){
                         requestService.updateSupervisor(r.isSupervisorApproval(), r.getRequestID(), r.getStatus(), r.getDeniedReason());
                     }
 

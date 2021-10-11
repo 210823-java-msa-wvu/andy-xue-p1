@@ -147,6 +147,7 @@ span.psw {
 
 
 
+
 <div id="id01" class="modal">
 
     <form class="modal-content animate" action="/action_page.php" method="post">
@@ -220,9 +221,14 @@ span.psw {
             <label for="change_status">Request ID:
                 <input id="change_status" type="text" name="change_status" class="form-control">
             </label>
+            <label for="denied_reason">Reason for Denial:
+                <input id="denied_reason" type="text" name="denied_reason" class="form-control">
+            </label>
             <br><br>
-            <button type="button" id="approveRequest" class="btn btn-primary" onclick="approveRequest1()">Approve</button>
-            <button type="button" id="denyRequest" class="btn btn-primary" onclick="denyRequest1()">Deny</button>
+            <button type="button" id="approveRequest" class="btn btn-primary" onclick="approveRequestBoth()">Approve</button>
+            <button type="button" id="denyRequest" class="btn btn-primary" onclick="denyRequestBoth()">Deny</button>
+            <input type="checkbox" id="supervisor" name="supervisor" value="alsoSupervisor">
+            <label for="supervisor"> Approve As Supervisor</label><br>
         </div>
 
         <div class="container" style="background-color:#f1f1f1">
@@ -231,56 +237,22 @@ span.psw {
         </div>
     </form>
 </div>
-<div id="id03" class="modal">
-
-    <form class="modal-content animate" action="/action_page.php" method="post">
-        <div class="imgcontainer">
-            <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">&times;</span>
-        </div>
-
-        <div class="container">
-            <label for="request_id_approved">Request ID:
-                <input id="request_id_approved" type="text" name="request_id_approved" class="form-control">
-            </label>
-            <label for="employee_id_approved">Employee ID:
-                <input id="employee_id_approved" type="text" name="request_id_approved" class="form-control">
-            </label>
-            <label for="reimbursement_amount">Reimbursement Amount:
-                <input id="reimbursement_amount" type="text" name="change_status" class="form-control">
-            </label>
-
-            <br><br>
-            <button type="button" id="finalize_reimbursement" class="btn btn-primary" onclick="finalizeReimbursement()">Finalize Reimbursement</button>
-
-        </div>
-
-        <div class="container" style="background-color:#f1f1f1">
-            <button type="button" onclick="document.getElementById('id03').style.display='none'" class="cancelbtn">Cancel</button>
-            <span class="psw">Forgot <a href="#">password?</a></span>
-        </div>
-    </form>
-</div>
 
 <!--<button onclick="moveToRequestTableBenco()" style="width:auto;">View Pending Requests</button>-->
 
-<button type="button" id = "toBenco" class = "btn btn-primary" onclick="goToBencoForm()" style="width:auto;">BencoHome</button>
+<button type="button" id = "toHome" class = "btn btn-primary" onclick="goToBothForm()" style="width:auto;">Home</button>
 
-<button onclick="moveToRequestTableBenco()" style="width:auto;">View Pending Requests</button>
+<button onclick="moveToRequestTableBoth()" style="width:auto;">View Incoming Requests</button>
 
-<button type="button" id = "tuitionButton" class = "btn btn-primary" onclick="moveToTuitionBenco()" style="width:auto;">Tuition Balance</button>
+<button type="button" id = "tuitionButton" class = "btn btn-primary" onclick="moveToTuitionBoth()" style="width:auto;">Tuition Balance</button>
 
 <button type="button" id = "logoutButton" class = "btn btn-primary" onclick="logout()" style="width:auto;">Sign Out</button>
 
 
-<h2>Benco Employee Account</h2>
-<p>Welcome to the Benco Home Page!</p>
-<br>
-
+<h2>Dpt Head Employee Account</h2>
+<p>Welcome to the Department Head Home Page!</p>
 <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Add Reimbursement</button>
-
 <button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Give Approval</button>
-
-<button onclick="document.getElementById('id03').style.display='block'" style="width:auto;">Finalize Reimbursement </button>
 
 <script src="js/reimbursement.js"></script>
 <script>
