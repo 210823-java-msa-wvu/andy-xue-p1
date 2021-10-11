@@ -144,9 +144,7 @@ span.psw {
 </head>
 <body>
 
-<h2>Supervisor Employee Account</h2>
 
-<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Add Reimbursement</button>
 
 <div id="id01" class="modal">
 
@@ -237,15 +235,22 @@ span.psw {
 </div>
 
 <!--<button onclick="moveToRequestTableBenco()" style="width:auto;">View Pending Requests</button>-->
+<button type="button" id = "toSupervisor" class = "btn btn-primary" onclick="goToSupervisorForm()" style="width:auto;">SupervisorHome</button>
+
 <button onclick="moveToRequestTableSupervisor()" style="width:auto;">View Pending Requests to Supervisor</button>
-
-
 
 <button type="button" id = "tuitionButton" class = "btn btn-primary" onclick="moveToTuitionSupervisor()" style="width:auto;">Tuition Balance</button>
 
+<button type="button" id = "logoutButton" class = "btn btn-primary" onclick="logout()" style="width:auto;">Sign Out</button>
+
+<h2>Supervisor Employee Account</h2>
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Add Reimbursement</button>
+
 <button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Give Approval</button>
 
-<button type="button" id = "logoutButton" class = "btn btn-primary" onclick="logout()" style="width:auto;">Sign Out</button>
+
+
 <script src="js/reimbursement.js"></script>
 <script>
 // Get the modal

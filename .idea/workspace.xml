@@ -2,138 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e03d6af5-216b-488b-91e0-2c287f9bc89d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_11_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_14_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_14_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_50.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_9_0_50.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_5_7_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_27_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_2_3_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/andy-xue-p1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/controllers/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/controllers/FrontController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/controllers/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/controllers/LogoutController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/controllers/ReimbursementController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/controllers/RequestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/controllers/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/models/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/models/Reimbursement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/models/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/repositories/CrudRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/repositories/EmployeeRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/repositories/ReimbursementRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/repositories/RequestRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/repositories/UserRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/repositories/hibernate/EmployeeHibernate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/repositories/hibernate/ReimbursementHibernate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/repositories/hibernate/RequestHibernate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/repositories/hibernate/UserHibernate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/repositories/jdbc/EmployeeJDBC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/repositories/jdbc/ReimbursementJDBC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/repositories/jdbc/RequestJDBC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/repositories/jdbc/UserJDBC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/services/EmployeeServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/services/ReimbursementService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/services/RequestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/services/UserServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/servlets/EmployeeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/servlets/FrontControllerServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/servlets/ReimbursementServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/servlets/RequestHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/utils/ConnectionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/xue/utils/HibernateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/connection.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bencoForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/dptHeadForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/reimbursement.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/loginFailed.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/reimbursements.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/requestsTable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/requestsTableBenco.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/requestsTableDpt.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/requestsTableSupervisor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/supervisorForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/tuition.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/tuitionBenco.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/tuitionDpt.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/tuitionSupervisor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/Project1.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/connection.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dev/xue/controllers/EmployeeController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dev/xue/controllers/FrontController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dev/xue/controllers/LoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dev/xue/controllers/LogoutController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dev/xue/controllers/ReimbursementController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dev/xue/controllers/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dev/xue/main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dev/xue/models/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dev/xue/models/Reimbursement.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dev/xue/models/Request.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dev/xue/models/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dev/xue/repositories/CrudRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dev/xue/repositories/EmployeeRepo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dev/xue/repositories/ReimbursementRepo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dev/xue/repositories/RequestRepo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dev/xue/repositories/UserRepo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dev/xue/repositories/hibernate/EmployeeHibernate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dev/xue/repositories/hibernate/ReimbursementHibernate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dev/xue/repositories/hibernate/RequestHibernate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dev/xue/repositories/hibernate/UserHibernate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dev/xue/repositories/jdbc/EmployeeJDBC.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dev/xue/repositories/jdbc/ReimbursementJDBC.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dev/xue/repositories/jdbc/RequestJDBC.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dev/xue/repositories/jdbc/UserJDBC.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dev/xue/services/EmployeeServices.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dev/xue/services/ReimbursementService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dev/xue/services/UserServices.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dev/xue/servlets/EmployeeServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dev/xue/servlets/FrontControllerServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dev/xue/servlets/ReimbursementServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dev/xue/servlets/RequestHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dev/xue/utils/ConnectionUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dev/xue/utils/HibernateUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/loginFailed.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/loginFailed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/requestsTableSupervisor.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/requestsTableSupervisor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/supervisorForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/supervisorForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/tuitionSupervisor.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/tuitionSupervisor.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -236,6 +109,18 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/reimbursements.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="67" selection-start-line="67" selection-end-line="67" selection-end-column="43" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/reimbursement.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-612">
@@ -279,57 +164,56 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/bencoForm.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="249" column="118" selection-start-line="249" selection-start-column="118" selection-end-line="249" selection-end-column="118" />
-              <folding>
-                <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/requestsTableBenco.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="147" selection-start-line="147" selection-end-line="153" selection-end-column="124" />
-              <folding>
-                <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/tuitionBenco.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
-              <folding>
-                <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/static/loginFailed.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            <state relative-caret-position="204">
+              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/requestsTableSupervisor.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="149" selection-start-line="149" selection-end-line="149" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/supervisorForm.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="239" selection-start-line="239" selection-end-line="243" selection-end-column="124" />
+              <folding>
+                <element signature="n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/tuitionSupervisor.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="152" column="124" selection-start-line="152" selection-start-column="124" selection-end-line="152" selection-end-column="124" />
+              <folding>
+                <element signature="n#style#0;n#button#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -432,9 +316,6 @@
         <option value="$PROJECT_DIR$/src/main/java/dev/xue/controllers/EmployeeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/dev/xue/models/Request.java" />
         <option value="$PROJECT_DIR$/src/main/java/dev/xue/controllers/ReimbursementController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/tuitionSupervisor.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/requestsTableSupervisor.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/supervisorForm.html" />
         <option value="$PROJECT_DIR$/src/main/java/dev/xue/services/RequestService.java" />
         <option value="$PROJECT_DIR$/src/main/java/dev/xue/repositories/RequestRepo.java" />
         <option value="$PROJECT_DIR$/src/main/java/dev/xue/controllers/RequestController.java" />
@@ -450,13 +331,15 @@
         <option value="$PROJECT_DIR$/src/main/webapp/static/requestsTableBenco.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/tuitionBenco.html" />
         <option value="$PROJECT_DIR$/src/main/java/dev/xue/controllers/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/requestsTableSupervisor.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/supervisorForm.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/tuitionSupervisor.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/loginFailed.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -623,7 +506,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1633907420211" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1633914612182" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../LibaryServlet" />
   </component>
   <component name="RecentsManager">
@@ -721,7 +604,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30711043" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24659607" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -730,12 +613,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.44026187" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21767594" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21767594" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.21931261" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.21931261" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
@@ -791,16 +674,6 @@
           <caret line="9" column="112" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="112" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/reimbursements.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="67" selection-start-line="67" selection-end-line="67" selection-end-column="43" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1053,37 +926,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/tuitionSupervisor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="151" column="133" selection-start-line="151" selection-start-column="133" selection-end-line="151" selection-end-column="133" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/requestsTableSupervisor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="151" column="129" selection-start-line="151" selection-start-column="129" selection-end-line="151" selection-end-column="129" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/supervisorForm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="223" column="56" selection-start-line="223" selection-start-column="56" selection-end-line="223" selection-end-column="56" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dev/xue/controllers/ReimbursementController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1331,10 +1173,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/reimbursements.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="67" selection-start-line="67" selection-end-line="67" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/requestsTableSupervisor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="149" selection-start-line="149" selection-end-line="149" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/supervisorForm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="239" selection-start-line="239" selection-end-line="243" selection-end-column="124" />
+          <folding>
+            <element signature="n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/tuitionSupervisor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="152" column="124" selection-start-line="152" selection-start-column="124" selection-end-line="152" selection-end-column="124" />
+          <folding>
+            <element signature="n#style#0;n#button#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/loginFailed.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        <state relative-caret-position="204">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
