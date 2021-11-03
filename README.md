@@ -17,4 +17,4 @@
 ## Management/Admin
 - an admin can login
 - submit a reimbursement
-- approved reimbursement
+- approve reimbursement
